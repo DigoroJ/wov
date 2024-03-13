@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* background-image: url("img/wov.png"); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    width: 140px;
+    position: relative;
+    height: auto;
+    padding: 10px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0.8px;
+    display: inline-block;
+    line-height: 70px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: 1s;
+}
+
+.navbar ul li a:hover{
+    color: pink;
+    border-radius: 2px;
+   }
+.wrapper .center{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: rgb(134, 4, 134);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: rgb(167, 6, 132);
+    font-size: 30px;
+    font-weight: bold;
+    width: 900px;
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+}
